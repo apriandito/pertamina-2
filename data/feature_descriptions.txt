@@ -1,0 +1,28 @@
+BBM Fraud Detection - Feature Descriptions
+=============================================
+
+volume_liters: Fuel volume in liters
+total_amount: Transaction amount in IDR
+hour: Hour of transaction (0-23)
+is_weekend: Weekend transaction (1=Yes, 0=No)
+loyalty_member: Pertamina loyalty member (1=Yes, 0=No)
+customer_transaction_count: Cumulative transaction count per customer
+days_since_last_transaction: Days since last transaction by customer
+same_day_transactions: Number of transactions on same day
+volume_deviation: Deviation from average volume pattern
+amount_deviation: Deviation from average amount pattern
+spbu_visits_count: Number of visits to this SPBU
+unique_spbu_visited: Number of unique SPBUs visited
+is_peak_hour: Transaction during peak hours (1=Yes, 0=No)
+is_night_transaction: Night transaction (1=Yes, 0=No)
+bbm_type_encoded: Fuel type (encoded)
+payment_method_encoded: Payment method (encoded)
+day_of_week_encoded: Day of week (encoded)
+customer_type_encoded: Customer type (encoded)
+spbu_category_encoded: SPBU category (encoded)
+spbu_province_encoded: SPBU province (encoded)
+spbu_city_encoded: SPBU city (encoded)
+
+Target Variable:
+is_fraud: Fraud indicator (1=Fraud, 0=Normal)
+fraud_type: Type of fraud (only in training data)
