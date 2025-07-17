@@ -1,0 +1,7 @@
+Algorithm,Use Case,Accuracy,Speed,Interpretability,Data Requirement
+Linear Regression,Production forecasting,Medium,Fast,High,Small-Medium
+Random Forest,Equipment classification,High,Medium,Medium,Medium
+SVM,Anomaly detection,High,Slow,Low,Medium
+Neural Networks,Complex pattern recognition,Very High,Medium,Very Low,Large
+K-Means,Data segmentation,Medium,Fast,High,Medium
+Decision Trees,Rule-based decisions,Medium,Fast,Very High,Small
